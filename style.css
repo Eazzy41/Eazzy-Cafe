@@ -1,0 +1,47 @@
+body{
+    color: whitesmoke;
+    background-image: url(./Images/Menu\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Menu{
+    color: orange;
+}
+.Breakfast{
+    color: Orange;
+}
+.Lunch{
+    color: Orange;
+}
+.International{
+    color: orange;
+}
+img{
+    float: right;
+    margin-right: 350px;
+}
+.Breakfast{
+    margin-left: 85px;
+}
+body{
+    margin-left: 400px;
+}
+.Lunch{
+     margin-left: 85px;
+}
+.International{
+     margin-left: 85px;
+}
+.Text{
+    color: white;
+    margin-left: 85px;
+}
+.Text1{
+    color: white;
+     margin-left: 85px;
+}
+.Text2{
+    color: white;
+    margin-left: 85px; 
+}

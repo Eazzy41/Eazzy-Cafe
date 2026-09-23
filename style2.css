@@ -1,0 +1,32 @@
+body{
+    background-image: url(./Images/Menu\ background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   margin-left: 400px;
+   color: white;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+.gender{
+  display: flex;
+  gap: 15px;
+}
+.Order{
+  display: flex;
+  gap: 15px;
+}
+#heading{
+    color: orange;
+}
+#heading2{
+    color: orange;
+}
+.username{
+     color: orange;
+}
+.email{
+    color: orange;
+}

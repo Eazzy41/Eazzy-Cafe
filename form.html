@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div id="heading">
+        <h2>Place Your order</h2>
+    </div>
+    <h5>Please fill out this form before ordering </h5>
+    <div id="heading2">
+        <h3>CUSTOMER INFORMATION</h3>
+    </div>
+    <br>
+    <form action="https://formsubmit.co/ashaoluafolabi2@gmail.com" method="POST" />
+    <div class="username"><label for="Username">Full Name</label></div>
+    <input type="text" placeholder="e.g John doe" required><br>
+    <br>
+    <div class="email"><label for="email">Email address:</label></div>
+    <input type="email" placeholder="e.g johndoe2@gmail.com" required><br>
+    <br>
+    <label for="Address">Address :</label>
+    <input type="address" placeholder="delivery Address" required> <br>
+    <br>
+    <label>Gender</label>
+
+    <div class="gender">
+        <label>
+            <input type="radio" name="gender" value="male" required>
+            Male
+        </label>
+
+        <label>
+            <input type="radio" name="gender" value="female" required>
+            Female
+        </label>
+    </div>
+    <br>
+    <h3> 2.Food Selection</h3>
+    <label for="food">Select Food:</label>
+    <select>
+        <option value="">Choose a meal</option>
+        <option value="jollof-rice">Jollof Rice</option>
+        <option value="fried-rice">Fried Rice</option>
+        <option value="spaghetti">Spaghetti</option>
+    </select>
+    <br>
+    <br>
+    <label for="quantity">Quantity</label>
+    <input type="number" id="quantity" name="quantity" min="1" required>
+    <br>
+    <br>
+    <label>Additional Extras</label>
+
+    <label>
+        <input type="checkbox" name="extras" value="chicken">
+        Chicken
+    </label>
+
+    <label>
+        <input type="checkbox" name="extras" value="plantain">
+        Plantain
+    </label>
+
+    <label>
+        <input type="checkbox" name="extras" value="coleslaw">
+        Coleslaw
+    </label>
+    <br>
+    <h3>Order Scheduling</h3>
+    <label for="Delivery Date">Delivery Date:</label>
+    <input type="date" required>
+    <br>
+    <br>
+    <label for="Delivery time">Delivery Time</label>
+    <input type="time" required>
+    <br>
+    <br>
+    <label for="Order type ">Order type</label>
+    <div class="Order">
+        <label for="delivery">
+            <input type="radio" name="Order type" value="delivery" required>
+            Delivery
+        </label>
+        <label for="Pick up ">
+            <input type="radio" name="Order type" value="Pickup" requireds>
+            Pickup
+        </label>
+    </div>
+    <br>
+    <input type="submit">
+    <input type="reset">
+</body>
+
+</html>
