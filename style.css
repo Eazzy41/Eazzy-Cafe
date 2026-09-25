@@ -1,9 +1,37 @@
 body{
     color: whitesmoke;
-    background-image: url(./Images/Menu\ background.jpg);
+    background-image: url(./Images/Food2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+nav h2 {
+    color: white;
+    font-size: 28px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: orange;
+}
+nav{
+    background-color: rgb(51, 21, 10);
+    border-bottom: solid;
+    border-color: black;
+    color: black;
 }
 .Menu{
     color: orange;
@@ -22,16 +50,16 @@ img{
     margin-right: 350px;
 }
 .Breakfast{
-    margin-left: 85px;
+     margin-right: 350px;
 }
 body{
-    margin-left: 400px;
+    
 }
 .Lunch{
-     margin-left: 85px;
+     margin-right: 350px;  
 }
 .International{
-     margin-left: 85px;
+     margin-right: 350px;
 }
 .Text{
     color: white;

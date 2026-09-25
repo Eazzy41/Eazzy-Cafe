@@ -1,19 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body{
+    margin: 0;
     background-image: url(./Images/Food2.png);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-   color: white;
-   margin-left: 60px;
-}
-label{
-   
-  justify-content: space-between;
+    min-height: 100vh;
 }
 nav {
     display: flex;
@@ -43,35 +34,22 @@ nav{
     border-color: black;
     color: black;
 }
-
-.Order{
-  display: flex;
-  gap: 15px;
+.heading{
+    color: white;
+    font-size: 20px;
 }
-#heading{
-    color: orange;
+.sub{
+    color: white;
+      font-size: 20px;
 }
-#heading2{
-    border: solid;
+button{
+    padding: 10px 25px;
+    font-size: 18px;
     color: black;
     background-color: orange;
+    border-radius: 15px;
 }
-
-.Food{
-    color: black ;
-    border: solid;
-    border-color: black;
-    background-color: orange;
-}
-.order2{
-     color: black ;
-    border: solid;
-    border-color: black;
-    background-color: orange;
-}
-input{
-    margin-left: 10px;
-}
-label{
-    margin-left: 20px;
+a{
+    color: black;
+    text-decoration: none;
 }

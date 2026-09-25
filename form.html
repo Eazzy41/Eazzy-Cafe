@@ -9,39 +9,50 @@
 </head>
 
 <body>
+        <nav>
+            <h2>Eazzy Bites</h2>
+
+            <div>
+                <a href="Landingpage.html">Home</a>
+                <a href="index.html">Menu</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="form.html">Order Now</a>
+            </div>
+        </nav>
+    
     <div id="heading">
-        <h2>Place Your order</h2>
+        <h2>Place Your order</h2><br>
     </div>
-    <h5>Please fill out this form before ordering </h5>
+    <h5>Please fill out this form before ordering </h5><br>
     <div id="heading2">
         <h3>CUSTOMER INFORMATION</h3>
     </div>
     <br>
     <form action="https://formsubmit.co/ashaoluafolabi2@gmail.com" method="POST" />
-    <div class="username"><label for="Username">Full Name</label></div>
-    <input type="text" placeholder="e.g John doe" required><br>
-    <br>
-    <div class="email"><label for="email">Email address:</label></div>
+    <label for="Username">Full Name  :</label>
+    <input type="text" placeholder="e.g John doe" required minlength="8" maxlength="16">
+   <label for="email">Email address  :</label>
     <input type="email" placeholder="e.g johndoe2@gmail.com" required><br>
-    <br>
-    <label for="Address">Address :</label>
-    <input type="address" placeholder="delivery Address" required> <br>
-    <br>
-    <label>Gender</label>
+<br>
+  <label for="Address">Address :</label>
+    <input type="address" placeholder="delivery Address" required> 
+    <label>Gender  :</label>
 
-    <div class="gender">
+   
         <label>
-            <input type="radio" name="gender" value="male" required>
+            <input type="radio" name="gender" value="male" required>  
             Male
         </label>
 
         <label>
             <input type="radio" name="gender" value="female" required>
             Female
-        </label>
-    </div>
+        </label><br>
+        
     <br>
-    <h3> 2.Food Selection</h3>
+   <div class="Food"><h3> 2.Food Selection</h3></div> 
+    <br>
     <label for="food">Select Food:</label>
     <select>
         <option value="">Choose a meal</option>
@@ -51,11 +62,11 @@
     </select>
     <br>
     <br>
-    <label for="quantity">Quantity</label>
+    <label for="quantity">Quantity:</label>
     <input type="number" id="quantity" name="quantity" min="1" required>
     <br>
     <br>
-    <label>Additional Extras</label>
+    <label>Additional Extras:</label>
 
     <label>
         <input type="checkbox" name="extras" value="chicken">
@@ -72,12 +83,14 @@
         Coleslaw
     </label>
     <br>
-    <h3>Order Scheduling</h3>
+    <br>
+   <div class="order2"><h3>Order Scheduling</h3></div> 
+    <br>
     <label for="Delivery Date">Delivery Date:</label>
     <input type="date" required>
     <br>
     <br>
-    <label for="Delivery time">Delivery Time</label>
+    <label for="Delivery time">Delivery Time:</label>
     <input type="time" required>
     <br>
     <br>
